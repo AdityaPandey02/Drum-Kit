@@ -40,5 +40,8 @@ for(var i =0; i < document.querySelectorAll(".drum").length; i++){
     });
 }
 
-
-
+document.addEventListener("keydown",function(event){
+        var keyPress = event.key;
+        handleClick(keyPress);
+    }
+)
